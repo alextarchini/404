@@ -1,12 +1,35 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;;
     color: #e3543b;
+    font-size: 40;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;;
+    color: black;
 }
 
 .main {
-    font-family: Arial, Helvetica, sans-serif;;
-    color: #e3543b;
     margin: 0 auto;
+    padding: 50;
     background-image:url(./broken.jpg);
-    repeat:none;
+    background-repeat: none; /*not working? */
+    width: 60%;
+    height:20%; 
+    text-align: center;
+}
+
+.text {
+    margin: 0 auto;
+    padding: 50;
+    width: 60%;
+    height:20%; 
+    text-align: center;
+}
+
+button {
+    background-color:#e3543b; 
+    text-align: center;
+    padding: 10px;
+    font-size: 14;
 }
